@@ -95,3 +95,67 @@ body{
     padding: 22px 155px;
 }
 /*---------------------------------------------------------------------------*/
+.statistics {
+    margin-top: 100px;
+}
+.statistics__container {
+    max-width: 800px;
+    margin: 100px auto 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.statistics .container h2 {
+    font-family: var(--font-raleway);
+    font-size: 2.25rem;
+    text-align: center;
+}
+.statistics__container > div{
+    max-width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-family: var(--font-raleway);
+}
+.circle{
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    position: relative;
+}
+.circle img{
+    position: absolute;
+}
+.statistics__container > div:nth-child(1) .circle {
+    background-color: var(--color-redish);
+}
+.statistics__container > div:nth-child(1) .circle img {
+    top: 0;
+    left: 45%;
+}
+.statistics__container > div:nth-child(2) .circle {
+    background-color: var(--color-primary);
+}
+.statistics__container > div:nth-child(2) .circle img {
+    top: 14px;
+    left: 47%;
+}
+.statistics__container > div:nth-child(3) .circle {
+    background-color: var(--color-green);
+}
+.statistics__container > div:nth-child(3) .circle img {
+    top: 6px;
+    left: 50%;
+}
+.number {
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: 0.1875rem;
+    margin-top: 13px;
+}
+.statistics__description {
+    color: var(--color-grey);
+    margin-top: 19px;
+}
+/*---------------------------------------------------------------------------*/
