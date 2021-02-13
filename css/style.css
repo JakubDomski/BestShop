@@ -23,6 +23,7 @@ a{
 body{
     font-family: var(--font-open-sans);
 }
+/*---------------------------------------------------------------------------*/
 .header{
     height: 70px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
@@ -57,11 +58,40 @@ body{
     border-bottom: 4px solid transparent;
     letter-spacing: 0.188rem;
 }
-
-
 .nav__element a:hover{
     color: var(--color-black);
     border-color: var(--color-primary);
+}
 
+.opening {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+.opening__content {
+    margin-top: 130px;
+    text-align: center;
 }
+.opening__content h1 {
+    font-family: var(--font-raleway);
+    font-size: 3.06rem;
+}
+.opening__content p {
+    margin-top: 20px;
+    margin-bottom: 38px;
+}
+.opening img {
+    width: 100%;
+    height: auto;
+}
+.btn {
+    color: white;
+    background-color: var(--color-primary);
+    box-shadow: 3px 10px 14px var(--color-primary-shadow);
+    font-weight: bold;
+    display: inline-block;
+    border: none;
+    border-radius: 40px;
+    padding: 22px 155px;
+}
+/*---------------------------------------------------------------------------*/
